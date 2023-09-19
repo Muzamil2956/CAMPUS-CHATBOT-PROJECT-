@@ -1,0 +1,218 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there","Hii", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [""],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can solve your IUST related queries"],
+         "context": [""]
+        },
+
+        {"tag": "iust",
+         "patterns": ["hod of cse department ", "who is hod of cse department"],
+         "responses": ["DR. Sajad Ah Lone"],
+         "context": [""]
+        },
+        {
+          "tag":"teachers1",
+          "patterns":["who teaches python"],
+          "responses":["idrees sir"],
+          "context": [""]
+        },
+        {
+          "tag":"teachers2",
+          "patterns":["who teaches math"],
+          "responses":["tanveer sir"],
+          "context": [""]
+        },
+        {
+          "tag":"teachers3",
+          "patterns":["who teaches cv"],
+          "responses":["snowber mam"],
+          "context": [""]
+        },
+        {
+          "tag":"iust4",
+          "patterns":["what is current NAAC grade of iust"],
+          "responses":["B+"],
+          "context":[""]
+        },
+        {
+          "tag":"iust5",
+          "patterns":["does iust has hostel accomadation","does iust remain open on sunday"],
+          "responses":["yes"],
+          "context":[""]
+        },
+        {
+          "tag":"iust7",
+          "patterns":["what is eligibility for B.Tech in iust"],
+          "responses":["Having passed 10+2 from the J&K Board of School Education or from any other recognized board with Physics, Chemistry & Mathematics as compulsory subjects. AND Having appeared in JEE Main (Paper-I) 2022 and obtained a positive score."],
+          "context":[""]
+        },
+        {
+          "tag":"iust9",
+          "patterns":["what is eligibility for B.Arch in IUST"],
+          "responses":["Having passed 10+2 from the J&K Board of School Education or from any other recognized board with Physics, Chemistry & Mathematics as compulsory subjects OR Having passed 10+3 Diploma Examination with Mathematics as compulsory subject. And In addition to above, the candidates need to have qualified National Aptitude Test in Architecture (NATA) conducted by Council of Architect."],
+          "context":[""]
+        },
+        {
+          "tag":"iust10",
+          "patterns":["what is the eligibility for MBA (5-Year Integrated)"],
+          "responses":["Having passed 10+2 with a minimum of 50% marks from the J&K Board of School Education or from Any other recognized board."],
+          "context":[""]
+        },
+        {
+          "tag":"iust11",
+          "patterns":["what is the eligibility for diploma in civil engineering"],
+          "context":["Having passed 10th class or equivalent examination with a minimum of 35% marks with Science and Mathematics as compulsory subjects."]
+        },
+        {
+          "tag":"iust12",
+          "patterns":["who teaches O.B"],
+          "responses":["Mehraj sir"],
+          "context":[""]
+        },
+        {
+          "tag":"iust13",
+          "patterns":["hod of electrical department"],
+          "responses":["Dr shahkar ah nahvi"],
+          "context":[""]
+        },
+        {
+          "tag":"iust14",
+          "patterns":["who is dean of soet"],
+          "responses":["Prof. AH Moon"],
+          "context":[""]
+        },
+        {
+          "tag":"iust15",
+          "patterns":["what is official site of iust"],
+          "responses":["www.iustlive.com"],
+          "context":[""]
+        },
+        {
+          "tag":"iust16",
+          "patterns":["what is timing of iust "],
+          "responses":["summer timing (9:20 am - 5:00 pm) & winter timing (10:00 am - 4:30 pm) "],
+          "context":[""]
+        },
+        {
+          "tag":"iust17",
+          "patterns":["what are different types of sports that can be played in iust"],
+          "responses":["Cricket, Football, Badminton, Basketball, Volleyball, Table Tennis"],
+          "context":[""]
+        },
+        {
+          "tag":"iust18",
+          "patterns":["how can i get IUST transport facility"],
+          "responses":[" For that you need to go to your student login > Transport and submit your consent as yes "],
+          "context":[""]
+        },
+     {
+         "tag":"iust19",
+          "patterns":["what is the eligibility for M.A. Journalism & Mass Communication  "],
+          "responses":["Bachelor’s Degree in any discipline with a minimum of 45% marks from a recognised University/ "],
+          "context":[""]
+        },
+
+  {
+         "tag":"iust22",
+          "patterns":["how many seats are for MBA in iust"],
+          "responses":[" General Seats=40 Payment Seats=08 NRI=02 Total Seats=50 "],
+          "context":[""]
+        },
+             {
+         "tag":"iust23",
+          "patterns":["how many seats are for B.Tech CSE"],
+          "responses":[" General Seats=45 Payment Seats=13 NRI=02 Total Seats=60 "],
+          "context":[""]
+        },
+     {
+         "tag":"iust24",
+          "patterns":["how many seats are for Diploma Civil Engineering"],
+          "responses":[" General Seats=40 Payment Seats=18 NRI=02 Total Seats=60 "],
+          "context":[""]
+        },
+{
+         "tag":"iust25",
+          "patterns":["how many seats are for B.Tech Engineering (Lateral Entry) Per Branch"],
+          "responses":[" General Seats=4 Payment Seats=02 NRI=00 Total Seats=6 "],
+          "context":[""]
+        },
+{
+         "tag":"iust26",
+          "patterns":["how many seats are for B.Arch."],
+          "responses":[" General Seats=33 Payment Seats=05 NRI=02 Total Seats=40 "],
+          "context":[""]
+        },
+
+        {
+         "tag":"iust27",
+          "patterns":["fee of MASTER OF BUSINESS ADMINISTRATION(MBA)"],
+          "responses":["tution fee=31000 security deposit=2000 admission fee=2200 Total=35200"],
+          "context":[""]
+        },
+
+      {
+         "tag":"iust28",
+          "patterns":["fee of B.TECH. ENGINEERING"],
+          "responses":["tution fee=31000 security deposit=2000 admission fee=2200 Total=35200"],
+          "context":[""]
+        },
+ {
+         "tag":"iust29",
+          "patterns":["Duration of MBA degree"],
+          "responses":["DURATION: 02 Years (04 Semesters)"],
+          "context":[""]
+        },
+{
+         "tag":"iust30",
+          "patterns":["Duration of Btech Engineering"],
+          "responses":["DURATION: 04 Years (08 Semesters)"],
+          "context":[""]
+        },
+
+            {
+         "tag":"iust31",
+          "patterns":["what is the eligibility for M.A. Islamic Studies"],
+          "responses":["Bachelor’s Degree in any discipline with a minimum of 45% marks from a recognised University/institute "],
+          "context":[""]
+        },
+        {
+         "tag":"iust32",
+          "patterns":["contact of hod of cse dept"],
+          "responses":["hod.cse@islamicuniversity.edu.in"],
+          "context":[""]
+        },
+        {
+         "tag":"iust33",
+          "patterns":["contact of dean of students"],
+          "responses":["dos@islamicuniversity.edu.in"],
+          "context":[""]
+        },
+        {
+         "tag":"iust34",
+          "patterns":["what is the shortage criteria in iust"],
+          "responses":["75%"],
+          "context":[""]
+        }
+
+   ]
+}
